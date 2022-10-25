@@ -9,7 +9,7 @@ if bit == '64bit':
     from data import main
     main()
 elif bit == '32bit':
-    from 32 import main
+    from data32 import main
     main()
 else:
     print('\n YOUR DEVICE IS NOT SUPPORT THIS COMMAND')
